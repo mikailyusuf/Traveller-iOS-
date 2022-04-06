@@ -128,7 +128,6 @@ class DiscoverViewController: UIViewController {
         view.backgroundColor = .systemBackground
         
        
-        
         view.addSubview(discoverLabel)
         view.addSubview(exploreLabel)
         view.addSubview(searchBox)
@@ -244,7 +243,7 @@ extension DiscoverViewController:UICollectionViewDelegate,UICollectionViewDataSo
              }
              
              let city = discoverCities[indexPath.row]
-             cell.configure(with: DiscoverCollectionViewViewModel(country: city.country, cityName: city.city, cityImageURL: city.cityURL))
+            cell.configure(with: DiscoverCollectionViewViewModel(country: city.country, cityName: city.city, cityImageURL: city.cityURL,photos: city.photos))
              
                  return cell
         }else{
@@ -254,7 +253,7 @@ extension DiscoverViewController:UICollectionViewDelegate,UICollectionViewDataSo
         }
         
         let city = discoverCities[indexPath.row]
-        cell.configure(with: DiscoverCollectionViewViewModel(country: city.country, cityName: city.city, cityImageURL: city.cityURL))
+            cell.configure(with: DiscoverCollectionViewViewModel(country: city.country, cityName: city.city, cityImageURL: city.cityURL,photos: city.photos))
         
             return cell
             

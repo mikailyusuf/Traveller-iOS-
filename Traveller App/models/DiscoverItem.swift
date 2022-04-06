@@ -10,4 +10,5 @@ struct DiscoverItem{
     let city:String
     let country:String
     let cityURL:URL?
+    let photos:[String]
 }

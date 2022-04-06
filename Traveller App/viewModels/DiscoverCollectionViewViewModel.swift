@@ -10,4 +10,5 @@ struct DiscoverCollectionViewViewModel{
     let country:String
     let cityName:String
     let cityImageURL:URL?
+    let photos:[String]
 }

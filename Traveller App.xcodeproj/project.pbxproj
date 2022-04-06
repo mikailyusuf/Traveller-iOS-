@@ -27,6 +27,7 @@
 		5258E8F927F9FD2400962A35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258E8F827F9FD2400962A35 /* Constants.swift */; };
 		5258E8FB27FA0BA300962A35 /* ExploreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258E8FA27FA0BA300962A35 /* ExploreCollectionViewCell.swift */; };
 		5258E8FD27FA39D300962A35 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258E8FC27FA39D300962A35 /* UIView.swift */; };
+		5267DAE927FE3A28004B15A7 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267DAE827FE3A28004B15A7 /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		5258E8F827F9FD2400962A35 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5258E8FA27FA0BA300962A35 /* ExploreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCollectionViewCell.swift; sourceTree = "<group>"; };
 		5258E8FC27FA39D300962A35 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		5267DAE827FE3A28004B15A7 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			children = (
 				5258E8EA27F9D4A900962A35 /* DiscoverCollectionViewCell.swift */,
 				5258E8FA27FA0BA300962A35 /* ExploreCollectionViewCell.swift */,
+				5267DAE827FE3A28004B15A7 /* PhotoCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				5258E8F627F9FCEE00962A35 /* DiscoverItem.swift in Sources */,
 				5258E8DF27F9B11600962A35 /* ProfileViewController.swift in Sources */,
 				5258E8EB27F9D4A900962A35 /* DiscoverCollectionViewCell.swift in Sources */,
+				5267DAE927FE3A28004B15A7 /* PhotoCollectionViewCell.swift in Sources */,
 				5258E8CA27F8FBDC00962A35 /* WelcomeViewController.swift in Sources */,
 				5258E8E527F9B17600962A35 /* DetailDestinationViewController.swift in Sources */,
 				5258E8DB27F9B0BA00962A35 /* MainToolBarViewController.swift in Sources */,
